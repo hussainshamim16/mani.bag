@@ -1,0 +1,1419 @@
+    @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Englebert&family=Jost:ital,wght@0,100..900;1,100..900&family=Mochiy+Pop+P+One&family=Protest+Riot&family=Rammetto+One&family=Sigmar+One&family=Sriracha&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Jost:ital,wght@0,100..900;1,100..900&family=Protest+Riot&family=Rammetto+One&family=Sriracha&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Jost:ital,wght@0,100..900;1,100..900&family=Mochiy+Pop+P+One&family=Protest+Riot&family=Rammetto+One&family=Sriracha&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Englebert&family=Jost:ital,wght@0,100..900;1,100..900&family=Mochiy+Pop+P+One&family=Protest+Riot&family=Rammetto+One&family=Sriracha&display=swap');
+
+    /*  mochiy  englebert */
+
+
+    .first{
+        font-family: "Mochiy Pop P One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .second{
+        font-family: "Englebert", cursive;
+        font-weight: 400;
+        font-style: normal;
+    } 
+
+    .flex{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    :root{  
+
+    --extraDark: rgba(145, 145, 145, 0.158);
+    }
+
+
+    html{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    }
+
+    
+    body{
+        
+    }
+
+    section.card{
+       display: flex;
+       align-items: right;
+       justify-content: right;
+
+       
+       background-color: #000;
+
+       display: none;
+        
+    }
+
+    section.card .back header{
+text-align: right;
+font-size: 40px;
+color: #000000af;
+cursor: pointer;
+    }
+
+    section.card .back{
+        /* border: 2px solid rgb(0, 0, 0); */
+        width: 40%;
+        height: 80vh;
+        position: absolute;
+
+        background-color: white;
+        box-shadow: 0px 0px 20px 2px #00000085;
+
+        z-index: 5;
+
+        padding: 15px;
+
+        animation-name: dad;
+        animation-duration: 1s;
+        
+    }
+
+    @keyframes dad {
+        0%{
+            opacity: 0;
+            
+        }
+        100%{
+            opacity: 1; 
+        }
+    }
+
+    section.card .back .men{
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    section.card .back .box{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    section.card .back .box i{
+        font-size: 25px;
+        color: purple;
+        cursor: pointer;
+
+        transition-duration: 0.3s;
+    }
+    section.card .back .box i:hover{
+color: black;
+    }
+    section.card .back .box h2{
+        font-size: 18px;
+     
+    }
+    section.card .back .box img{
+        width: 20%;
+    }
+    section.card .back .sub{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        font-size: 17px;
+
+        margin-bottom: 20px;
+    }
+
+    section.card .back footer{
+        text-align: center;
+    }
+    section.card .back footer a{
+        
+
+        font-size: 20px;
+        background-color: purple;
+        border: 2px solid purple;
+        padding: 9px 30px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 20px;
+
+        transition-duration: 0.3s;
+    }
+
+    section.card .back footer a:hover{
+        border: 2px solid purple;
+        background-color: white;
+        color: #000;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        
+    }
+
+    nav a {
+        text-decoration: none;
+       color: black;
+    }
+    nav ul{
+        list-style: none;
+    }
+    nav li{
+        margin-right: 20px;
+    }
+    nav li a{
+        color : var(--extralightColor);
+        text-decoration: none;
+        font-size: 20px;
+        
+    }
+
+    nav .heart{
+        /* border: 1px solid red; */
+        width: 20%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 25px;
+        cursor: pointer;
+
+    }
+
+
+    /* swiper */
+
+    .body {
+        
+
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        height: 85vh;
+
+       
+    }
+
+    .swiper {
+        width: 100%;
+        height: 100%;
+        
+      
+    }
+
+   
+
+    .swiper-slide {
+        
+        font-size: 18px;
+       
+        background-image: url('https://img.freepik.com/premium-vector/white-simple-abstract-wallpaper_393744-50.jpg?w=2000');
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+          
+        
+    } 
+    
+
+    
+
+    .swiper-slide .text{
+        /* border: 1px solid #ff0000; */
+        width: 50%;
+        text-align: left;
+
+        line-height: 1;
+    }
+    .swiper-slide .text h1{
+        font-size: 60px;
+
+
+        animation-name: fode;
+        animation-duration: 3s;
+        animation-delay: 0.1s;
+        
+        
+    }
+  @keyframes fode {
+    0%{
+        color: white;
+    }
+    100%{
+        color: rgb(0, 0, 0);
+    }
+  }
+    .swiper-slide .text h3{
+      font-size: 30px;
+      font-weight: bold;
+
+      animation-name: fode;
+      animation-duration: 3s;
+      animation-delay: 0.1s;
+      
+      
+  }
+@keyframes fode {
+  0%{
+      color: white;
+  }
+  100%{
+      color: rgb(0, 0, 0);
+  }
+}
+
+.swiper-slide .text p{
+    
+    animation-name: fode;
+    animation-duration: 3s;
+    animation-delay: 0.1s;
+    
+    
+}
+@keyframes fode {
+0%{
+    color: white;
+}
+100%{
+    color: rgb(0, 0, 0);
+}
+}
+
+    .swiper-slide .text a{
+       text-decoration: underline;
+       color: black;
+       animation-name: fode;
+       animation-duration: 3s;
+       animation-delay: 0.1s;
+       
+       
+   }
+ @keyframes fode {
+   0%{
+       color: white;
+   }
+   100%{
+       color: rgb(0, 0, 0);
+   }
+ }
+    .swiper-slide .pick {
+        /* border: 1px solid red; */
+        width: 30%;
+    }
+    .swiper-slide .pick img{
+        width: 100%;
+    }
+
+    
+
+    section.about{
+        width: auto;
+        height: 100vh;
+
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+        
+
+        margin-top: 50px;
+
+        
+    }
+    section.about .box1{
+        
+    }
+
+    section.about img{
+        width: 80%;
+    }
+    section.about h2{
+        font-size: 18px;
+        font-weight: bold;
+        
+    }
+    section.about h1{
+        font-size: 30px;
+        font-weight: bold;
+        margin-top: -20px;
+    }
+
+    section.product{
+        /* border: 1px solid red; */
+        height: auto;
+    }
+
+    section.product .text{
+        /* border: 1px solid red; */
+        width: 40%;
+
+        margin-bottom: 40px;
+
+    }
+    section.product .text h1{
+       font-size: 30px;
+       margin-bottom: -10px;
+
+    }
+    section.product .text p{
+       font-size: 20px;
+       margin-bottom: -10px;
+
+    }
+
+    section.product .allsec{
+        width: auto;
+margin-bottom: 30px;
+        
+        
+    }
+
+    section.product .allsec .pick{
+        
+        width: 100%;
+
+        text-align: center;
+        display: flex;
+        
+    }
+    section.product .allsec .pick img{
+        
+        width: 90%;
+    }
+    section.product .allsec .pick h1{
+       font-size: 20px;
+    }
+    section.product .allsec .pick hr{
+       width: 60%;
+       
+    }
+    section.product .allsec .pick  i{
+       color: rgb(255, 153, 0);
+       
+    }
+    
+
+  
+
+    section.pagination{
+        /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 40px;
+    
+    }
+
+    section.pagination .boxes{
+        background-color: rgba(145, 145, 145, 0.158);
+        color: rgb(0, 0, 0);
+
+        padding: 10px 20px;
+        height: 30vh;
+        width: 20%;
+
+
+        border-radius: 40px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    section.pagination .boxes i{
+        font-size: 40px;
+    }
+
+    section.fotter{
+        width: auto;
+        height: 60vh;
+        
+        background-color: rgba(145, 145, 145, 0.158);
+        
+        color: rgba(0, 0, 0, 0.925);
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: left;
+
+        padding: 0px 10px;
+        margin-bottom: -10px;
+            }
+
+            
+    section.fotter .box{
+
+    }
+    section.fotter .box h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    section.fotter .box p{
+        font-size: 18px;
+        width: auto;
+        text-align: left;
+    }
+    section.fotter .box a{
+        font-size: 18px;
+        width: 250px;
+        text-align: left;
+        color: black;
+        line-height: 1.3;
+        text-decoration: none;        
+    }
+
+    section.fotter .box ul {
+        /* list-style: image(''); */
+        list-style: symbols(fixed "\1F95D" "\1F349" "\1F353"); 
+    }
+    section.fotter .box ul li{
+        font-size: 17px;
+        line-height: 1.4;
+        
+        font-weight: 200;
+
+    }
+
+    section.nextFotter{
+        background-color: rgba(145, 145, 145, 0.158);
+        text-align: center;
+        
+    }
+
+    section.nextFotter h1{
+        font-size: 80%;
+        letter-spacing: 2px;
+
+        margin-bottom: 16px;
+        
+    }
+
+    section.nextFotter a i{
+        color: #000;
+font-size: 20px;
+margin-right: 10px;
+    }
+
+
+    /*  section login */
+
+    section.login{
+        background-color: rgba(145, 145, 145, 0.158);
+        width: 100%;
+        height: 60vh;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        margin-bottom: 20px;
+    }
+    section.login h1{
+        font-size: 40px;
+    }
+    section.login a{
+        font-size: 20px;
+        text-decoration: none;
+    }
+    section.login span{
+        font-size: 20px;
+    }
+
+    section.form{
+        /* border: 2px solid red; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        height: 60vh;
+        margin-bottom: 30px;
+
+        
+    }
+    section.form .box{
+        /* border: 2px solid rgb(0, 0, 0); */
+width: 40%;
+
+padding: 0px 20px;
+display: flex;
+align-items: left;
+justify-content: center;
+flex-direction: column;
+text-align: left;
+        
+    }
+    section.form .box{
+        /* border: 2px solid rgb(0, 0, 0); */
+width: 50%;
+        
+    }
+    
+    section.form .box label{
+font-size: 25px;
+    }
+    section.form .box input{
+        font-size: 18px;
+        font-family: cursive;
+width: 80%;
+padding: 6px 3px;
+border: 1px solid rgba(0, 0, 0, 0.404);
+        
+    }
+section.form .box div{
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: left;
+    align-items: center;
+    
+    
+}
+
+
+
+    section.form .box div button{
+        background-color: #000000ee;
+        color: white;
+
+        
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 20px;
+        
+
+        font-size: 20px;
+
+        transition-duration: 0.2s;
+        cursor: pointer;
+
+        padding: 10px 70px;
+    }
+
+    section.form .box button:hover{
+        color: black;
+        background-color: white;
+        border: 2px solid black;
+    }
+    section.form .box span button{
+        background-color: #000000ee;
+        color: white;
+
+        
+        border: 2px solid black;
+        border-radius: 20px;
+        
+
+        font-size: 20px;
+
+        transition-duration: 0.2s;
+        cursor: pointer;
+
+        padding: 10px 70px;
+    }
+
+    section.form .box span button:hover{
+        color: black;
+        background-color: white;
+        border: 2px solid black;
+    }
+
+    section.wish{
+        
+        margin-bottom: 20px;
+        height: 60vh;
+
+        
+    }
+
+    section.wish .light{
+        background-color: var(--extraDark);
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    section.wish .light .light-sec{
+      
+      width: 30%;
+
+      padding: 0px 30px;
+      
+
+      justify-content: space-around;
+    }
+
+    section.wish .extrapart .aikelist{
+        
+        
+
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+
+        
+    }
+
+    section.wish .extrapart .aikelist a{
+
+        background-color: #000000ee;
+        color: white;
+
+        
+        border: 2px solid black;
+        border-radius: 20px;
+        
+
+        font-size: 18px;
+
+        transition-duration: 0.2s;
+        cursor: pointer;
+
+        padding: 10px 30px;
+
+        text-decoration: none;
+    }
+
+    section.wish .extrapart .aikelist a:hover{
+        color: black;
+        background-color: white;
+        border: 2px solid black;
+    }
+  
+
+    section.contact{
+        /* border: 1px solid red; */
+        text-align: left;
+    }
+    section.contact .box1{
+        
+        display: block;
+        text-align: left;
+    }
+
+    section.contact .box div{
+        
+   display: inline;
+   text-align: left;
+    }
+
+    section.contact .box div i{
+        margin-right: 10px;
+    }
+
+    section.contact .box2{
+        
+        
+    }
+
+    section.contact .box2 form{
+        
+        line-height: 3;
+    }
+
+    section.contact .box2 form textarea{
+        font-size: 18px;
+        font-family: cursive;
+width: 80%;
+padding: 6px 3px;
+border: 1px solid rgba(0, 0, 0, 0.404);
+    }
+    /* shope */
+
+    section.shop{
+    
+        height: 40vh;
+    }
+    section.shoping i{
+        
+        cursor: pointer;
+        
+    }
+
+    section.align{
+        
+        width: 90%;
+        height: 60vh;  
+        display: flex;
+        
+        justify-content: right;
+
+        position: absolute;
+
+        display: none;
+        
+        
+
+    }
+    section.align div{
+
+        
+        
+        background-color: rgb(186, 229, 255);
+        
+        width: 40%;
+        height: 70vh;        
+        
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+        animation-name: faf;
+        animation-duration: 1s;
+    }
+
+    @keyframes faf {
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 100;
+        }
+    }
+
+    section.align div .text{
+display: block;
+line-height: 1.3;
+text-align: left;
+
+    }
+
+    section.align div .text h3{
+color: #000;
+font-size: 30px;
+    }
+    section.align div .text p{
+        margin-bottom: 30px;
+    }
+
+    section.align div .text a{
+   
+        background-color: #000000ee;
+        color: white;
+
+        
+        border: 2px solid black;
+        border-radius: 20px;
+        
+
+        font-size: 18px;
+
+        transition-duration: 0.2s;
+        cursor: pointer;
+
+        padding: 10px 30px;
+
+        text-decoration: none;
+    }
+
+    section.align div .text a:hover{
+        color: black;
+        background-color: rgb(186, 229, 255);
+        border: 2px solid black;
+    }
+  
+
+
+
+    section.shoping .text{
+
+display:flex;
+align-items: center;
+text-align: center;
+justify-content: space-between;
+
+background: none;
+width: auto;
+padding: 0px 30px;
+
+/* border: 1px solid red; */
+    }
+
+    section.foterBoxes{
+        /* border: 1px solid red; */
+    }
+    section.foterBoxes .boxes{
+        /* border: 1px solid red; */
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    section.foterBoxes .boxes p{
+        color: black;
+        background-color: aliceblue;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px 20px;
+        margin-right: 10px;
+        cursor: pointer;
+        transition-duration: 0.2s;
+    }
+
+    section.foterBoxes .boxes .khali{
+border: 1px solid rgb(0, 0, 0);
+    }
+    section.foterBoxes .boxes .khali:hover{
+        background-color: #000;
+        color: white;
+        border: 1px solid rgb(0, 0, 0);
+    }
+    section.foterBoxes .boxes .back{
+background-color: #000;
+color: white;
+border: 1px solid rgb(0, 0, 0);
+
+
+    }
+    section.foterBoxes .boxes .back:hover{
+        border: 1px solid rgb(0, 0, 0);
+        background-color: white;
+
+color: rgb(0, 0, 0);
+    }
+
+    section.order{
+        
+
+        display: flex;
+        flex-direction: column;
+        
+        height: max-content;
+    }
+
+    section.order div{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    section.order div p{
+        text-align: center;
+        width: 50%;
+
+    }
+
+    section.order .orderB{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        line-height: 1.6;
+    }
+
+    section.order form{
+        line-height: 3;
+    }
+    
+    section.order form textarea{
+        font-size: 16px;
+        font-family: cursive;
+width: 80%;
+padding: 6px 3px;
+border: 1px solid rgba(0, 0, 0, 0.404);
+    }
+
+    section.feedbacks{
+        
+        text-align: center;
+        display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+
+/* border: 1px solid red; */
+margin-top: 40px;
+
+    }
+    section.feedbacks .boxes{
+        
+        text-align: center;
+        display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+flex-wrap: wrap;
+    }
+
+    section.feedbacks img{
+        border-radius: 50px;
+        margin-bottom: 20px;
+        box-shadow: 0px 0px 20px 2px #00000044;
+        margin-right: 20px;
+    }
+    section.feedbacks .box{
+        width: 50%;
+border: 1px solid rgb(0, 0, 0);
+text-align: left;
+padding: 0px 20px;
+margin-bottom: 20px;
+
+    }
+
+    .gag{
+        background: none;
+        text-align: center;
+        align-items: center;
+    }
+
+    .gag .text{
+        text-align: center;
+        cursor: pointer;
+    }
+
+    @media only screen and  (max-width : 600px) {
+       
+        nav{
+            
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            width: 100%;
+        
+        }
+
+        nav ul.target{
+            
+          
+
+        }
+        nav li{
+            
+            text-align: center;
+            /* border: 1px solid red; */
+        }
+        nav ul li a{
+            
+            text-align: center;
+         font-size: 12px;
+         font-weight: bold;
+         
+        }
+        nav .heart{
+            width: 100%;
+            margin-bottom: 30px;
+           
+        }
+
+        section.card .back{
+            /* border: 2px solid rgb(0, 0, 0); */
+            width: 80%;
+        height: auto;
+        }
+
+        section.card .back .box h2{
+            font-size: 10px;
+         
+        }
+
+        section.card .back .sub{
+            font-size: 14px;
+        }
+
+        section.card .back footer{
+         display: flex;
+         justify-content: center;
+        }
+        section.card .back footer a{
+        
+
+            font-size: 15px;
+            padding: 2px 10px;
+        }
+
+        section.card .back .men{
+            font-weight: bold;
+            font-size: 15px;
+        }
+
+        section.card .back header{
+            text-align: right;
+            font-size: 20px;
+        }
+        .swiper-slide{
+            text-align: center;
+            align-items: center ;
+            justify-content: center;
+            font-size: 15px;
+            
+        }
+        .swiper-slide .pick img {
+           display: none;
+        }
+
+        .swiper-slide .text{
+            
+            width: auto;
+            text-align: center;
+            margin-left: 5%;
+        }
+        .swiper-slide .text h1{
+            font-size: 30px;
+        }
+        .swiper-slide .text h3{
+            font-size: 20px;
+        }
+
+        section.about{
+            flex-direction: column;
+            height: 150vh;
+        }
+
+      
+        section.about h2{
+            font-size: 18px;
+            font-weight: bold;
+            
+        }
+
+        section.about h1{
+            font-size: 30px;}
+
+            section.product{
+                text-align: center;
+            }
+        
+            section.product .text{
+                
+                width: 100%;
+        
+                margin-bottom: 50px;
+        
+            }
+        
+            section.product .text h1{
+                font-size: 30px;
+                
+         
+             }
+             section.product .text p{
+                font-size: 15px;
+                
+         
+             }
+        
+             section.product .allsec .pick{
+                
+                width: 100%;
+        
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+            }
+        
+            section.product .allsec .pick h1{
+                font-size: 20px;
+             }
+             section.product .allsec .pick hr{
+                width: 70%;
+                
+             }
+             section.product .allsec .pick  i{
+                color: rgb(255, 153, 0);
+                font-size: 20px;
+             }
+        
+             section.pagination{
+                flex-direction: column;
+                margin-bottom: 20px;
+             }
+        
+             section.pagination .boxes{
+               
+                height: 30vh;
+                width: 50%;
+                margin-bottom: 30px;
+                font-size: 10px;
+            }
+        
+            .hate{
+                font-size: 10px;
+                padding: -60px 0px;
+                border-radius: 10px;
+            }
+
+            section.fotter{
+                flex-direction: column;
+                height: auto;
+            }
+
+            section.fotter .box{
+             display: none;
+        
+            }
+            .nextFotter{
+                font-size: 15px;
+            }
+
+
+            section.shoping .text{
+                width: auto;
+            }
+            section.align div{
+                width: 100%;
+                height: 80vh;
+            }
+
+            section.foterBoxes .boxes p{
+                font-size: 15px;
+                padding: 5px;
+            }
+
+            section.order div p{
+               
+                width: 100%;
+        
+            }
+
+            section.order form textarea{
+                font-size: 12px;
+                font-family: cursive;
+        width: 100%;}
+
+        section.form .orderB form input{
+            font-size: 12px;
+            width: 100%;
+        }
+
+        section.form .orderB form button{
+            font-size: 14px;
+            padding: 10px 20px;
+        }
+
+        section.contact{
+            
+            flex-direction: column;
+            height: 30vh;
+        }
+        section.contact .box1{
+            
+            width: auto;
+        }
+
+
+        section.contact .box span button{
+            
+            
+            padding: 10px 20px;
+            font-size: 15px;
+        }
+
+        section.contact .box {
+            
+            width: auto;
+        }
+
+        section.contact .box h1{
+            font-size: 20px;
+            text-align: center;
+            width: 100%;
+            display: block;
+            
+        }
+
+        section.contact .box2 form textarea{
+            font-size: 12px;
+            font-family: cursive;
+    width: 100%;
+    
+}
+
+    section.contact .box input{
+
+        
+        font-size: 12px;
+        width: 100%;
+    }
+
+    section.von h1{
+        font-size: 30px;
+    }
+
+    section.wish .light{
+        justify-content: center;
+    }
+
+    section.wish .extrapart{
+        /* border: 1px solid red; */
+        height: 200vh;
+        text-align: center;
+    }
+    section.wish .extrapart .aikelist{
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    section.wish .extrapart .aikelist img{
+        width: 30%;
+    }
+    i.removeThis{
+        display: none;
+    }
+section.dady{
+    
+}
+section.wish{
+    font-size: 12px;
+    height: auto;
+    display: block;
+}
+
+
+section.login h1{
+    font-size: 30px;
+}
+section.login a{
+    font-size: 15px;
+    text-decoration: none;
+}
+section.login span{
+    font-size: 15px;
+}
+
+section.form{
+    flex-direction: column;
+    height: 140vh;
+}
+
+section.form .box{
+    width: auto;
+    text-align: center;
+}
+section.form .box div{
+    text-align: center;
+    width: max-content;
+    
+
+}
+section.form .box div button{
+    margin: 0px;
+    text-align: center;
+    margin-left: 7%;
+}
+section.feedbacks .box{
+    width: 100%;}
+        }
+
+
+        @media only screen and (min-width:600px) and (max-width:800px) {
+
+/* body{
+background-color: #000;
+} */
+
+            section.fotter .box ul li{
+                font-size: 12px;
+            }
+            section.fotter .box h1{
+                font-size: 10px;
+                text-align: center;
+            }
+            section.fotter .box p{
+                font-size: 10px;
+                text-align: center;
+            }
+            section.fotter .box a{
+                font-size: 12px;
+                text-align: center;
+                width: auto;
+                display: block;
+                /* border: 1px solid red; */
+            }
+
+            section.product .text{
+                /* border: 1px solid red; */
+                width: 70%;
+        
+                margin-bottom: 60px;
+        
+            }
+            section.product .text h1{
+               font-size: 30px;
+               margin-bottom: -10px;
+        
+            }
+            section.card .back{
+                width: 70%;
+                height: 90vh;
+            }
+            section.card .back .box h2{
+                font-size: 15px;
+             
+            }            
+            section.card .back .sub{
+                
+                        font-size: 15px;
+        
+                margin-bottom: 20px;
+            }
+        
+            
+            section.card .back footer a{
+                
+        
+                font-size: 15px;             
+                padding: 9px 20px;
+               
+            }
+
+            nav li a{
+               
+                font-size: 17px;
+                
+            }
+            nav .heart{
+                font-size: 20px;
+            }
+
+            .swiper-slide .text h1{
+                font-size: 50px;}
+                .swiper-slide .text p{
+                    font-size: 15px;
+                }
+                .swiper-slide .text a{
+                    font-size: 17px;
+                }
+
+                .swiper-slide .text h3{
+                    font-size: 20px;}
+
+                    section.align div{
+
+        
+                        width: 70%;
+                        height: auto;  }
+
+                        section.form .box span button{
+                            font-size: 18px;
+                        }      
+                        section.login h1{
+                            font-size: 30px;
+                        }  
+                        section.form .box  p{
+                            font-size: 13px;
+                        }  
+        }
+      
+

@@ -1,0 +1,96 @@
+ <div class="swiper-slide">
+                    
+                    <div class="text">
+                    <h3 class="second">Amazing Product</h3>
+                    <h1 class="first">BackPack</h1>
+                    <p class="second">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda molestias eos
+                        similique rem libero suscipit a totam veniam exercitationem velit, dolorem explicabo quo hic
+                        quasi fuga nulla ratione voluptatum saepe!</p>
+                        <a href="#" class="first">Shop Now</a>
+                    </div>
+
+                    <div class="pick">
+                        <img src="https://htmldemo.net/payne/payne/assets/img/slider/slider-image-01.png" alt="bagepack1">
+                    </div>
+
+                </div>
+
+                https://htmldemo.net/payne/payne/index.html
+
+
+ 
+  <!-- Demo styles -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <style>
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    .hody {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .hamper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .hamper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .hamper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+</head>
+
+<body class='hody'>
+  <!-- hamper -->
+  <div class="hamper myhamper">
+    <div class="hamper-wrapper">
+      <div class="hamper-slide">Slide 1</div>
+      <div class="hamper-slide">Slide 2</div>
+      <div class="hamper-slide">Slide 3</div>
+      <div class="hamper-slide">Slide 4</div>
+      <div class="hamper-slide">Slide 5</div>
+      <div class="hamper-slide">Slide 6</div>
+      <div class="hamper-slide">Slide 7</div>
+      <div class="hamper-slide">Slide 8</div>
+      <div class="hamper-slide">Slide 9</div>
+    </div>
+    <div class="hamper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize hamper -->
+  <script>
+    var hamper = new hamper(".myhamper", {
+      pagination: {
+        el: ".hamper-pagination",
+        dynamicBullets: true,
+      },
+    });
+  </script>
+</body>
+
+
+
+WISHLIST

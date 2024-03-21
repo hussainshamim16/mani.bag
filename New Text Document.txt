@@ -1,0 +1,2 @@
+all footer social media links
+all pages responsive    
